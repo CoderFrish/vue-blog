@@ -1,10 +1,8 @@
-<script setup lang="ts">
-import { RouterLink } from 'vue-router'
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <div class="categories categories-theme">
-        <t-list :scroll="{ type: 'virtual', rowHeight: 80, bufferSize: 10, threshold: 10 }">
+        <t-list>
             <a href="/categories/默认">
                 <t-list-item>
                     <t-list-item-meta title="默认" />
