@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { Menu, MenuItem } from '@/components/menu'
 import { HomeIcon, CollectionIcon, PinIcon } from 'tdesign-icons-vue-next'
-import { Info } from '@/components/info'
 import { useDeviceType, DeviceType } from '@/utils/driver'
 import { useThemeStore } from './store/theme'
-import { Categories } from '@/components/categories'
 import { PersonalInformationIcon } from 'tdesign-icons-vue-next'
 
 const active = ref(location.pathname)

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useDeviceType, DeviceType } from '@/utils/driver'
-import { Post } from '@/components/post'
 
 const isDesktop = computed(() => useDeviceType() == DeviceType.DESKTOP)
 </script>

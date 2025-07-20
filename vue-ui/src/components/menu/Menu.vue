@@ -3,7 +3,6 @@ import { useDeviceType, DeviceType } from '@/utils/driver'
 import { IndentRightIcon, SunnyIcon, MoonIcon, CloseIcon } from 'tdesign-icons-vue-next'
 import { MessagePlugin } from 'tdesign-vue-next'
 import { computed, ref } from 'vue'
-import { Info } from '@/components/info'
 import { useThemeStore } from '@/store/theme'
 
 const drawer = ref(false)
